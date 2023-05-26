@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="container">
+
+    <div class="timerBox" id="timerBox">
+        <div class="View">
+            <div class="timeViewBox">
+                <span id="Hours">00</span>
+            </div>
+            <div class="timeViewBox">
+                <span class="culon">:</span>
+            </div>
+            <div class="timeViewBox">
+                <span id="Minute">00</span>
+            </div>
+            <div class="timeViewBox">
+                <span class="culon">:</span>
+            </div>
+            <div class="timeViewBox">
+                <span id="Second">00</span>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="btn-box">
+            <button type="button" id="TimeStart" class="btn ">Start</button>
+            <button type="button" id="TimeStop" class="btn ">Stop</button>
+            <button type="button" id="TimeReset" class="btn ">Reset</button>
+        </div>
+
+        <div class="mode-btn">
+            <div class="mode-btn-box">
+                <button id="darkBtn"></button>
+                <button id="lightBtn"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java Script -->
+    <script src="./js/stopWatch.js"></script>
+</body>
+
+</html>

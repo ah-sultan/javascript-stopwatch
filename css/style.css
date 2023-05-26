@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #container{
+
+  height: 100vh;
+  width: 100%;
+} */
+
+.timerBox {
+  margin: 30px auto 0;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 0 5px blue;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+
+.View {
+
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px blue;
+  border-radius: 10px;
+
+}
+
+.timeViewBox {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  color: #4070eb;
+}
+
+.culon {
+  color: #d63334;
+}
+
+.btn-box {
+  margin-top: 10px;
+}
+
+.btn {
+  border: 0;
+  padding: 5px 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0 2px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px blue;
+}
+
+#TimeStart {
+  background: #974063;
+}
+
+#TimeStop {
+  background: #FF9678;
+}
+
+#TimeReset {
+  background: #293950;
+}
+
+
+/* Dar Mode Css */
+.darkBox {
+  background: #000;
+}
+
+.darkBox .View {
+
+  background: #000;
+}
+
+.mode-btn {
+  margin-top: 30px;
+}
+
+.mode-btn .mode-btn-box {
+  /* width: 50px;
+  height: 21px;
+  margin: 0 auto;
+  background: blue; */
+}
+
+.mode-btn .mode-btn-box button {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50px;
+  margin: 0 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.mode-btn .mode-btn-box #darkBtn {
+  background: #000;
+}
+
+.mode-btn .mode-btn-box #lightBtn {
+  background: #fff;
+}
